@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+nav {
+	background: rgba(0, 0, 0, 0.803);
+	color: white;
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 0 8rem;
+}
+
+nav a {
+	transition: 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	text-decoration: none;
+	height: 100%;
+	padding: 0 2rem;
+}
+
+nav a:hover {
+	background: white;
+	color: black;
+}
